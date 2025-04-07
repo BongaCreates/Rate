@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rate Koketso</title>
+  <link rel="stylesheet" href="koketso.css">
+</head>
+<body>
+    <h1>Rate Koketso on a Scale of 1 to 10</h1>
+    <div class="rating-container">
+      <button class="rating-button allowed" onclick="showMessage(1)">1</button>
+      <button class="rating-button" onclick="showMessage(2)">2</button>
+      <button class="rating-button" onclick="showMessage(3)">3</button>
+      <button class="rating-button" onclick="showMessage(4)">4</button>
+      <button class="rating-button" onclick="showMessage(5)">5</button>
+      <button class="rating-button" onclick="showMessage(6)">6</button>
+      <button class="rating-button" onclick="showMessage(7)">7</button>
+      <button class="rating-button" onclick="showMessage(8)">8</button>
+      <button class="rating-button" onclick="showMessage(9)">9</button>
+      <button class="rating-button" onclick="showMessage(10)">10</button>
+    </div>
+    <div class="message" id="message"></div>
+  
+    <!-- Home button -->
+    <button class="home-button" onclick="goHome()">Home</button>
+  
+    <script src="koketso.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  </body>
+</html>
